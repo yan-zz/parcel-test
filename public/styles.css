@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+h1 {
+  width: fit-content;
+  border: solid rgb(179, 0, 89);
+  border-radius: 7%;
+  font-size: xx-large;
+  color: bisque;
+}
