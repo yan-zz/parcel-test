@@ -2,3 +2,25 @@ body {
   background-color: bisque;
   color: #222;
 }
+
+.app {
+  margin: center;
+  padding: 3%;
+}
+
+button {
+  background-color: rgb(179, 0, 89);
+  border: solid bisque;
+  border-radius: 7%;
+  padding: 3%;
+  font-size: x-large;
+}
+
+h1 {
+  width: fit-content;
+  border: solid rgb(179, 0, 89);
+  border-radius: 7%;
+  padding: 3px;
+  font-size: xx-large;
+  color: 222;
+}
