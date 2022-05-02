@@ -1,14 +1,19 @@
 import React from 'react';
-import '../public/styles.css';
+import styled from 'styled-components';
 import { Hello } from './Hello';
 import { Counter } from './Counter';
 
 export function App() {
+  const App = styled.div`
+    margin: 5%;
+    padding: 3%;
+  `;
+
   return (
-    <div className="app">
+    <App>
       <Hello />
       <Counter />
-    </div>
+    </App>
   );
 }
 

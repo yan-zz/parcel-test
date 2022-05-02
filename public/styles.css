@@ -1,29 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #222;
-}
-
-.app {
-  margin: 40px;
-  display: flexbox;
-}
-
-h1 {
-  width: fit-content;
-  border: solid rgb(179, 0, 89);
-  border-radius: 7%;
-  padding: 3px;
-  font-size: xx-large;
-  color: bisque;
-}
-
-button {
-  width: fit-content;
-  background-color: #222;
-  border: solid rgb(179, 0, 89);
-  border-radius: 7%;
-  padding-inline: 5px;
-  font-size: x-large;
-  color: bisque;
+  background-color: bisque;
+  color: #222;
 }
