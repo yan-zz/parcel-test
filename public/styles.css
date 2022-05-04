@@ -1,26 +1,35 @@
 body {
+  margin: 0;
   background-color: bisque;
   color: #222;
 }
 
 .app {
-  margin: center;
-  padding: 3%;
+  display: flex;
+  justify-content: center;
 }
 
-button {
-  background-color: rgb(179, 0, 89);
-  border: solid bisque;
-  border-radius: 7%;
-  padding: 3%;
-  font-size: x-large;
+.hello {
+  border: solid #222;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
 }
 
 h1 {
+  flex-direction: column;
   width: fit-content;
   border: solid rgb(179, 0, 89);
   border-radius: 7%;
   padding: 3px;
   font-size: xx-large;
   color: 222;
+}
+
+button {
+  background-color: rgb(179, 0, 89);
+  border: solid 5px bisque;
+  padding: 3%;
+  font-size: x-large;
 }
